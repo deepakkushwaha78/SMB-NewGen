@@ -5,6 +5,11 @@ To enable service SMB:
 Enable-NetFirewallRule -DisplayGroup "File and Printer Sharing" 
 ```
 
+To check the SMB service status
+```bash
+Get-NetFirewallRule -DisplayName "File and Printer Sharing (SMB-In)"
+```
+
 
 To Install the OpenSSH:
 ```bash
