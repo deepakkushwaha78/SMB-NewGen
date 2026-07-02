@@ -4,7 +4,7 @@
 # Purpose : Install OpenSSH on Windows
 ############################################################
 
-$Source      = "C:\Users\Administrator\Downloads\OpenSSH-Win64"
+$Source      = "C:\Users\Administrator\Downloads\SMB-NewGen\OpenSSH-Win64"
 $Destination = "C:\Program Files\OpenSSH"
 
 Write-Host ""
